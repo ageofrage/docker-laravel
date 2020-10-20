@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "plugins": ["curry", "jest"],
+  "extends": [
+    "eslint:standard",
+    "plugin:@typescript-eslint/eslint-standard",
+    "plugin:@typescript-eslint/standard",
+    "plugin:prettier/standard",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "no-var": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "semi": false
+      }
+    ]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  }
+}

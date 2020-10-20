@@ -69,30 +69,30 @@ cache:
 	@make optimize
 cache-clear:
 	@make optimize-clear
-npm:
-	@make npm-install
-npm-install:
-	docker-compose exec web npm install
-npm-dev:
-	docker-compose exec web npm run dev
-npm-watch:
-	docker-compose exec web npm run watch
-npm-watch-poll:
-	docker-compose exec web npm run watch-poll
-npm-hot:
-	docker-compose exec web npm run hot
-yarn:
-	docker-compose exec web yarn
-yarn-install:
-	@make yarn
-yarn-dev:
-	docker-compose exec web yarn dev
-yarn-watch:
-	docker-compose exec web yarn watch
-yarn-watch-poll:
-	docker-compose exec web yarn watch-poll
-yarn-hot:
-	docker-compose exec web yarn hot
+# npm:
+# 	@make npm-install
+# npm-install:
+# 	docker-compose exec web npm install
+# npm-dev:
+# 	docker-compose exec web npm run dev
+# npm-watch:
+# 	docker-compose exec web npm run watch
+# npm-watch-poll:
+# 	docker-compose exec web npm run watch-poll
+# npm-hot:
+# 	docker-compose exec web npm run hot
+# yarn:
+# 	docker-compose exec web yarn
+# yarn-install:
+# 	@make yarn
+# yarn-dev:
+# 	docker-compose exec web yarn dev
+# yarn-watch:
+# 	docker-compose exec web yarn watch
+# yarn-watch-poll:
+# 	docker-compose exec web yarn watch-poll
+# yarn-hot:
+# 	docker-compose exec web yarn hot
 db:
 	docker-compose exec db bash
 sql:

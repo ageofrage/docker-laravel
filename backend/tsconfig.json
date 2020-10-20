@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNEXT",
+    "target": "ESNext",
+    "noImplicitAny": false,
+    "outDir": "built",
+    "rootDir": ".",
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  }
+}
